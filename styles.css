@@ -1,0 +1,50 @@
+/* Custom Styles */
+:root {
+  /* Font Family */
+  --ff--main: "Kumbh Sans", sans-serif;
+
+  /* Colors */
+  --clr-primary: hsl(185, 75%, 39%);
+  --clr-verydarkblue: hsl(229, 23%, 23%);
+  --clr-greyishblue: hsl(227, 10%, 46%);
+  --clr-darkgrey: hsl(0, 0%, 59%);
+
+  /* Font-Size */
+  --fs-namestats: 1.25px;
+}
+
+body {
+  background-color: var(--clr-primary);
+  background-image: url(/images/bg-pattern-top.svg);
+  background-image: url(/images/bg-pattern-bottom.svg);
+  background-position-x: left;
+  background-repeat: no-repeat;
+  margin: 1em;
+  padding: 0.7em;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 100%;
+  height: 60vh;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+img {
+  width: 100%;
+}
+.display-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.display-img {
+  width: 25%;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  position: relative;
+  top: -50px;
+  height: auto;
+}
